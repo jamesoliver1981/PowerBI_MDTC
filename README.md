@@ -1,6 +1,6 @@
 # Tennis Performance Dashboard (Power BI)
 
-This repository demonstrates how match performance data can be processed, structured, and visualized to generate actionable insights for tennis players. It is a working replica of the **MyDigitalTennisCoach** app.
+This repository demonstrates how match performance data can be processed, structured, and visualized to generate actionable insights for tennis players. It is a working replica of the [MyDigitalTennisCoach](https://apps.apple.com/de/app/my-digital-tennis-coach/id1631299737) app.
 
 ## 🔍 Project Overview
 
@@ -13,18 +13,22 @@ The dashboard is built using Power BI and helps players understand their match p
 
 The goal is to help players identify strengths, weaknesses, and training priorities.
 
+![Dashboard Preview](img/dashboard_demo.gif)
+
 ---
 
 ## 📁 Folder Structure
 
-├── core_stats.csv # Aggregated player stats per match
-├── match_info.csv # Metadata about each match (opponent, level, etc.)
-├── raw_data/ # Raw input data files (e.g., from IoT or match logs)
-├── backup/ # Automatic backups of previous core_stats and match_info
-├── process_match_data.py # Python script for transforming and appending new data
-├── powerbi/
-│ └── TennisDashboard.pbix # Power BI file with visualizations and filters
-
+```
+├── core_stats.csv             # Aggregated player stats per match  
+├── match_info.csv             # Metadata about each match (opponent, level, etc.)  
+├── raw_data/                  # Raw input data files (e.g., from IoT or match logs)  
+├── backup/                    # Automatic backups of previous core_stats and match_info  
+├── img/                       # images for readMe  
+├── process_match_data.py      # Python script for transforming and appending new data  
+├── powerbi/  
+│   └── TennisDashboard.pbix   # Power BI file with visualizations and filters  
+```
 
 ---
 
